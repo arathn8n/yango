@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='bg-[#F9F5F2]'>
-            <div className='max-w-7xl mx-auto grid grid-cols-1 pt-10 pb-10 place-items-center md:grid-cols-2 lg:grid-cols-4'>
+            <div className='max-w-7xl mx-auto grid grid-cols-1 pt-10 pb-10 md:place-items-center md:grid-cols-2 lg:grid-cols-4'>
                 <div>
                     <img className='block mb-3.5' src="/logo.png" alt="logo" />
                     <p className='mb-3.5'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
