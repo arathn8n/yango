@@ -3,7 +3,7 @@ import React from 'react'
 const HomeCompany = () => {
     return (
         <div className='bg-[#F2FDFE]'>
-            <section className='max-w-7xl mx-auto px-4'>
+            <section className='max-w-7xl mx-auto px-4 pb-4'>
                 <header className='text-center'>
                     <span className='block text-[#E51938] pt-10 mb-10'>TOP RATED COMPANY</span>
                     <h2 className='text-3xl font-black mb-10'>Trusted More that 2500+ <br /> Businesses and Organizations
