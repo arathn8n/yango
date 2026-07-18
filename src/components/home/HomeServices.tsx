@@ -3,7 +3,7 @@ import React from 'react'
 const HomeServices = () => {
     return (
         <>
-            <section className='max-w-7xl mx-auto mt-10 mb-10'>
+            <section className='max-w-7xl mx-auto mt-10 mb-10 px-4'>
                 <header className='text-center'>
                     <span className='text-[#E51938] block mb-3.5'>OUR SERVICES</span>
                     <h2 className='text-3xl block mb-5 font-black'>We Are Offering All Kinds of IT Solutions Services
