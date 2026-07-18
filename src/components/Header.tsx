@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import Home from './home/Home'
+import Services from './customServices/Services'
 
 const Header = () => {
 
@@ -92,8 +93,8 @@ const Header = () => {
 
             <Routes>
                 <Route path='/' element={<Home />} />
-                {/* <Route path='/services' element={<Services />} />
-                <Route path='/pricing' element={<Pricing />} />
+                <Route path='/services' element={<Services />} />
+                {/* <Route path='/pricing' element={<Pricing />} />
                 <Route path='/pages' element={<Pages />} />
                 <Route path='/blog' element={<Blog />} />
                 <Route path='/contact' element={<Contact />} /> */}
