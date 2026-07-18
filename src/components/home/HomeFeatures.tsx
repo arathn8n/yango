@@ -9,7 +9,7 @@ const HomeFeatures = () => {
                 <section>
                     <header>
                         <span className='text-[#E51938] mb-3.5 block'>OUR FEATURES</span>
-                        <h2 className='mb-3.5 text-4xl'>Best Services Features! It’s More Affordable Than You Think
+                        <h2 className='mb-3.5 text-4xl font-black'>Best Services Features! It’s More Affordable Than You Think
                         </h2>
                     </header>
 

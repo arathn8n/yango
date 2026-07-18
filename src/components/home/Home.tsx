@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import HomeFeatures from './HomeFeatures'
 import HomeAbout from './HomeAbout'
 import HomeServices from './HomeServices'
+import HomeCompany from './HomeCompany'
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
                 <div className='max-w-7xl mx-auto grid grid-cols-2 place-items-center p-4 max-md:block '>
                     <section>
                         <header>
-                            <h1 className='text-6xl mb-3.5'>Excellent IT Services For Your Business Success</h1>
+                            <h1 className='text-6xl mb-3.5 font-black'>Excellent IT Services For Your Business Success</h1>
                         </header>
                         <p className='mb-3.5'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
 
@@ -26,6 +27,7 @@ const Home = () => {
             <HomeFeatures />
             <HomeAbout />
             <HomeServices />
+            <HomeCompany />
 
         </>
     )

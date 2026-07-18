@@ -8,7 +8,7 @@ const HomeAbout = () => {
                     <section>
                         <header>
                             <span className='text-[#E51938] block mb-3.5'>ABOUT US</span>
-                            <h2 className='text-3xl mb-3.5'>We Offer Professional IT Solutions For Business
+                            <h2 className='text-3xl mb-3.5 font-black'>We Offer Professional IT Solutions For Business
                             </h2>
                         </header>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
