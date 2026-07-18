@@ -6,6 +6,7 @@ import HomeServices from './HomeServices'
 import HomeCompany from './HomeCompany'
 import HomeMission from './HomeMission'
 import HomeOpinion from './HomeOpinion'
+import Footer from '../Footer'
 
 const Home = () => {
     return (
@@ -32,6 +33,7 @@ const Home = () => {
             <HomeCompany />
             <HomeMission />
             <HomeOpinion />
+            <Footer />
 
         </>
     )
