@@ -1,4 +1,3 @@
-import React from 'react'
 import HomeServices from '../home/HomeServices'
 import Footer from '../Footer'
 

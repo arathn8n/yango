@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import Home from './home/Home'
 import Services from './customServices/Services'
