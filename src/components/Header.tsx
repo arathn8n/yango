@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import Home from './home/Home'
 import Services from './customServices/Services'
+import Pricing from './pricing/Pricing'
 
 const Header = () => {
 
@@ -58,26 +59,6 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/pages"
-                                    className={({ isActive }) =>
-                                        `block p-3 ${isActive ? 'text-[#E51938] border-b' : 'text-black'}`
-                                    }
-                                >
-                                    Pages
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink
-                                    to="/blog"
-                                    className={({ isActive }) =>
-                                        `block p-3 ${isActive ? 'text-[#E51938] border-b' : 'text-black'}`
-                                    }
-                                >
-                                    Blog
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink
                                     to="/contact"
                                     className={({ isActive }) =>
                                         `block p-3 ${isActive ? 'text-[#E51938] border-b' : 'text-black'}`
@@ -94,10 +75,8 @@ const Header = () => {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/services' element={<Services />} />
-                {/* <Route path='/pricing' element={<Pricing />} />
-                <Route path='/pages' element={<Pages />} />
-                <Route path='/blog' element={<Blog />} />
-                <Route path='/contact' element={<Contact />} /> */}
+                <Route path='/pricing' element={<Pricing />} />
+                {/* <Route path='/contact' element={<Contact />} /> */}
             </Routes>
         </>
     )
