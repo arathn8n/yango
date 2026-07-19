@@ -3,6 +3,7 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 import Home from './home/Home'
 import Services from './customServices/Services'
 import Pricing from './pricing/Pricing'
+import Contact from './contact/Contact'
 
 const Header = () => {
 
@@ -76,7 +77,7 @@ const Header = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/services' element={<Services />} />
                 <Route path='/pricing' element={<Pricing />} />
-                {/* <Route path='/contact' element={<Contact />} /> */}
+                <Route path='/contact' element={<Contact />} />
             </Routes>
         </>
     )
