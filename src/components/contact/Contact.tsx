@@ -4,7 +4,7 @@ import Footer from '../Footer'
 const Contact = () => {
     return (
         <>
-            <section className='max-w-7xl mx-auto'>
+            <section className='max-w-7xl mx-auto px-4'>
                 <header className='text-center'>
                     <span className='text-[#E51938]'>CONTACT US
                     </span>
